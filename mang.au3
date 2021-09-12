@@ -6,4 +6,5 @@ _ArrayDisplay($numbers1)
 _ArrayDisplay($numbers2)
 _ArrayDisplay($numbers3)
 
-MsgBox(0, 'Infor', $numbers1[2])
+MsgBox(0, 'Infor', $numbers1[$i] & @CRLF) 
+Next
